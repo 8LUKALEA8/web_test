@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media (max-width: 600px) {
+
+    body{
+    background-color: rgb(252 248 245);
+}
+
+.dsrt h1{
+    color: rgb(38 17 12);
+    margin: 50px 0 20px 70px;
+}
+
+.container{
+    display: block;
+}
+
+.lst{
+    display: flex;
+    flex-wrap: wrap;
+    width: 64em;
+    margin-left: 50px;
+}
+
+.lst img{
+    border-radius: 20px;
+    width: 300px;
+}
+
+.lst h2{
+    width: 12em;
+}
+
+.lst a{
+    margin-left: 25%;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 30px;
+    text-decoration: none;
+    color: black;
+    border: solid 1px black
+  
+}
+
+.overlay{
+    margin-bottom: 10px;
+}
+
+
+
+.lst .waffle, .lst .Creme_Brulee, .lst .Macaron, .lst .Tiramisu, .lst .Bakvala, .lst .Brownie, .lst .Pie, .lst .Cake, .lst .Cotta{
+    position: static;
+    padding: 20px;
+}
+
+.lst-col{
+    color: rgb(212, 108, 109);
+}
+
+h3, h4 {
+    line-height: 2em;
+
+}
+.cart{
+    display: inline-block;
+    width: 600PX;
+    height: 400PX;
+    margin-top: -100px;
+    padding: 50px;
+    border-radius: 30px;
+    background-color: white;
+}
+
+.cart .csz{
+    margin-left: 33%;
+}
+
+.cart .csz img {
+    width: 180px;
+}
+
+.cart h1{
+    color: rgb(180, 65, 36);
+}
+
+
+.cart h3{
+    color: rgb(144, 125, 119);
+    margin: 25px;
+    text-align: center;
+}
+
+    
+}
